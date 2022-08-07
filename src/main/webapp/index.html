@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+<h2>JAX-RS示例（Jersey）</h2>
+<a href="rest/hello">点击这里查看</a><br>
+
+<h2>Restful JAX-RS注解示例</h2>
+<a href="rest/hello/demo">JAX-RS注解参数示例</a><br>
+<a href="rest/hello/2022/08/03">JAX-RS注解参数(日期)示例</a><br>
+
+<form action="rest/product/add" method="post">
+    Enter Id:<input type="text" name="id"/><br/><br/>
+    Enter Name:<input type="text" name="name"/><br/><br/>
+    Enter Price:<input type="text" name="price"/><br/><br/>
+    <input type="submit" value="Add Product"/>
+</form>
+
+<h2>JAX-RS文本文件下载</h2>
+<a href="rest/files/txt">点这里下载文本文件</a><br>
+<a href="rest/files/image">点这里下载图片文件</a><br>
+<a href="rest/files/pdf">点这里下载PDF文件</a>
+
+<h2>JAX-RS文件上传示例</h2>
+<form action="rest/files/upload" method="post" enctype="multipart/form-data">
+    <p>
+        选择文件 : <input type="file" name="file" size="45" />
+    </p>
+    <input type="submit" value="提交上传" />
+</form>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
